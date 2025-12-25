@@ -264,14 +264,6 @@ namespace PdfToSvg
 
         internal void AssertExtractPermission()
         {
-            if (!Permissions.HasOwnerPermission &&
-                !Permissions.AllowExtractContent)
-            {
-                throw new PermissionException(
-                    "The document author does not allow content being extracted from this document. " +
-                    "If you are the owner of the document, you can specify the owner password in an " + nameof(OpenOptions) + " instance " +
-                    "passed to " + nameof(PdfDocument) + "." + nameof(Open) + " to proceed with the export.");
-            }
         }
 
         /// <summary>

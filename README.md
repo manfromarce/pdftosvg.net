@@ -1,3 +1,7 @@
+This fork of the PdfToSvg.NET allows content extraction without enforcing owner password.  
+
+Original Readme follows. 
+
 # PdfToSvg.NET
 
 [![Tests](https://img.shields.io/github/actions/workflow/status/dmester/pdftosvg.net/build.yml?branch=master&style=flat-square)](https://github.com/dmester/pdftosvg.net/actions)
